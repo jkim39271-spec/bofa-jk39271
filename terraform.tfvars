@@ -1,3 +1,3 @@
-vm-size = "t2.micro"
-vm-name = "Jae-vm5"
+vm-size = "t3.micro"
+vm-name = "Jae-vm6"
 novm = 2
