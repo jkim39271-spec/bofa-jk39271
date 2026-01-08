@@ -3,7 +3,7 @@ data "aws_vpc" "example" {
     id = "vpc-07eede624774fec02"
 }
 
-# creating security group 2
+# creating security group 3
 resource "aws_security_group" "allow_tls" {
   name        = "jak_allow_boa_rules" # changed here
   description = "Allow TLS inbound traffic and all outbound traffic"
