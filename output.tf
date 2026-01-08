@@ -1,7 +1,7 @@
-output "Jae-vm1-publicIP" {
-    value = aws_instance.example.public_ip
+output "Jae-vm3-publicIP" {
+    value = aws_instance.example.*.public_ip
 }
 
-output "Jae-vm1-id" {
-  value = aws_instance.example.id
+output "Jae-vm3-id" {
+  value = [ for i in aws_instance.example: i.id ]
 }
