@@ -1,2 +1,2 @@
 vm-size = "t3.micro"
-vm-name = "Jae-vm2"
+vm-name = "Jae-vm3"
